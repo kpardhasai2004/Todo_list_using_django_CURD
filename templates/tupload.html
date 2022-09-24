@@ -1,0 +1,25 @@
+{% extends 'index.html' %}
+{% load static %}
+
+{% block content %}
+    <link rel="stlesheet" href="{% static 'css/thome.css' %}">
+    
+    <form action="" method="POST" >
+            {% csrf_token %}
+            <br>
+            <br>
+            <div class="bg-black rounded-3 mx-auto " style="width: 30rem; height: 19rem">
+                <p class="h2 text-dark bg-primary pb-2 ps-2 rounded-3"> Upload your todo tasks here </p>
+                <div><br></div>
+                <div class="px-4 py-2 bg-info text-dark ">
+                    <label class=" fst-italic fw-bold " for="task">Task: </label>
+                    <input id="username" type="text" name="task" style="width: 25rem;">
+                </div>
+                <div><br></div>
+                <div class="px-4" ><input class=" btn bg-info fw-bold ms-2 mb-10" type="submit"></div>
+                <div><br></div>
+                <div class="px-4"><a class="btn bg-info fw-bold " href="{%url 'thome' %}">todo page</a></div>
+            </div>
+    </form>
+    
+{% endblock %}

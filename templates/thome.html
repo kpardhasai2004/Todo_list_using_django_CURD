@@ -1,0 +1,44 @@
+{% extends 'index.html' %}
+{% load static %}
+{% block content %}
+    <br>
+    <div class="d-flex flex-column bg-black overflow-auto rounded-3 mx-5" style="" >
+        <div class=" list-group-item h1 text-dark bg-primary pb-2 ps-2 rounded-3">Assigned Tasks</div>
+        <div class='list-group-item bg-dark'> 
+            <div class="d-flex flex-row-reverse p-2">
+                <a class="btn bg-info fw-bold text-end " href="{% url 'tupload' %}">Add new to the list</a> 
+            </div>
+        </div>
+        {% for task in tasks %}    
+
+            <div class=' d-flex bg-info rounded-3 my-1 mx-2 ' >
+                        <div class=" me-auto ">
+                            <p class=" h3 text-dark fst-italic p-2 text-break " style=""> {{task.work}}</p> 
+                        </div>
+                        <div>
+                            <form action="tcomp/{{task.id}}/" method="post">
+                                {% csrf_token %}
+                                <input class=" btn btn-success  mx-1 mt-1" type="submit" value="Completed">
+                            </form> 
+                        </div>
+
+                        <div >
+                            <form action="tupdate/{{task.id}}/" method="post">
+                                {% csrf_token %}
+                                <input class=" btn btn-primary  mx-1 mt-1" type="submit" value="Edit">
+                            </form> 
+                        </div>    
+                    
+                        <div>
+                            <form action="tdelete/{{task.id}}/" method="post">
+                                {% csrf_token %}
+                                <input class=" btn btn-danger  mx-1 mt-1" type="submit" value="Delete">
+                            </form> 
+                        </div>
+                    
+            </div>
+        
+        {% endfor %}
+        
+    </div>              
+{% endblock %}

@@ -1,0 +1,18 @@
+{% extends 'index.html' %}
+{% load static %}
+{% block content %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <div class="container">
+            <div class="row g-0">
+                <div class="col-sm-6 col-md-8 p-5" id="header-text">
+                  {% if user.is_authenticated %}
+                    <h1 id="header-h1" class="text-warning "> Welcome back,</h1>
+                    <p id="header-paragraph" class="text-warning" >Please click on the todo button to view assigned tasks.</p>
+                  {% else %}
+                    <h1 id="header-h1" class="text-warning "> Welcome </h1>
+                    <h2 id="header-paragraph" class="text-warning" >This is a task assigning platform please register or login to view you task.</h2>
+                  {% endif %}
+                </div>
+            </div>
+    </div>
+{% endblock content %}
