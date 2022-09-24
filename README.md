@@ -1,8 +1,20 @@
 # Todo_list_using_django_CURD
-<h1> In this page you can give title and body for your blog posts </h1>
-<img src="https://github.com/kpardhasai2004/simple-blog-website-using-django/blob/main/images_for_readme/93afef56-2c84-41c5-9fe1-99b5b586c0b0.jpg" >
-<h1> In this page you can see your title and body of the specific blog post </h1>
-<img src="https://github.com/kpardhasai2004/simple-blog-website-using-django/blob/main/images_for_readme/5d8621e9-caf4-49ab-8d50-b2aecd2601ca.jpg" >
+<h1> This is the home page before logging in. </h1>
+<img src="https://github.com/kpardhasai2004/Todo_list_using_django_CURD/blob/main/images_readme/home_before_logging_in.jpg" >
+<h1> This is the home page after logging in only once the user is authenticated. </h1>
+<img src="https://github.com/kpardhasai2004/Todo_list_using_django_CURD/blob/main/images_readme/home_after_logging_in.jpg" >
+<h1> Registration page to add a new user into database. </h1>
+<img src="https://github.com/kpardhasai2004/Todo_list_using_django_CURD/blob/main/images_readme/registration_page.jpg" >
+<h1> User login page for authentication. </h1>
+<img src="https://github.com/kpardhasai2004/Todo_list_using_django_CURD/blob/main/images_readme/login_page.jpg" >
+<h1> Once the user is logged out this page is appeared to conform the logout. </h1>
+<img src="https://github.com/kpardhasai2004/Todo_list_using_django_CURD/blob/main/images_readme/logout_page.jpg" >
+<h1> This page shows the tasks and update and delete options are given. </h1>
+<img src="https://github.com/kpardhasai2004/Todo_list_using_django_CURD/blob/main/images_readme/todo_page_tasks.jpg" >
+<h1> This is user profile page where user can view their details for now user name and email are displayed. </h1>
+<img src="https://github.com/kpardhasai2004/Todo_list_using_django_CURD/blob/main/images_readme/user_profile.jpg" >
+<h1> The tasks can be updated by this page. </h1>
+<img src="https://github.com/kpardhasai2004/Todo_list_using_django_CURD/blob/main/images_readme/update_task_page.jpg" >
 <h5> Languages used </h5>
 <ul>
   <li>HTML</li>
