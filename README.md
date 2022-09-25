@@ -1,9 +1,9 @@
 # Todo_list_using_django_CURD
 <h3> The client's schedule point of engagement is provided on this page. </h3>
-<h3> The transfer page allows the customer to enter his assignment into the connection point. </h3>
-<h3> On the homepage page, the customer may view their assignments. </h3>
-<h3> The client can update and delete the tasks you've entered.</h3>
-<h3> The validation procedure is carried out so that the web application may be used by the primary verified customers. </h3>
+<h3> The upload page allows the clients to enter his assignment into the home page. </h3>
+<h3> On the homepage, the client can view their assignments. </h3>
+<h3> The client can update and delete the tasks they've entered.</h3>
+<h3> The authentiation procedure is carried out so that the web application may be used by the primary verified clients. </h3>
 <h1> This is the home page before logging in. </h1>
 <img src="https://github.com/kpardhasai2004/Todo_list_using_django_CURD/blob/main/images_readme/home_before_logging_in.jpg" >
 <h1> This is the home page after logging in only once the user is authenticated. </h1>
